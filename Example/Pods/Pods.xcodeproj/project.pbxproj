@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02C8A08326A077DCCECD193A2DA39CC7 /* PreneticsTestCocoa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A22980356EBA7C518EB4BFFF729FBBC /* PreneticsTestCocoa-dummy.m */; };
+		292C0468813D383B1FC092B08F581466 /* Pods-PreneticsTestCocoa_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AF7635DEE9BB400B1BFF9194AAB662C /* Pods-PreneticsTestCocoa_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A20AAE869A61B4965E1883FEDF19F12 /* Pods-PreneticsTestCocoa_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 150D969656E1793C02EDC8D28577AD7D /* Pods-PreneticsTestCocoa_Tests-dummy.m */; };
+		5C1E99E9DA0C768F8CFAB58DF4762191 /* Pods-PreneticsTestCocoa_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A951F440667E665DBF16512373BC780 /* Pods-PreneticsTestCocoa_Example-dummy.m */; };
+		865AC525F90249D822033B5560CAE44E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		993B57DF24AB98794C12BD94791367A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		ABFD58D5B4664B8165DED2736601BA34 /* PreneticsTestCocoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956BFA8643103F339A0E92BE65447BDC /* PreneticsTestCocoa.swift */; };
+		AF7A8603ED778BFFEA0D112BDF86B77B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B86D03A370CA35499DA09B6D93139D9A /* Pods-PreneticsTestCocoa_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 662122A369B31A035329F6C974118347 /* Pods-PreneticsTestCocoa_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9F077A22A5AA756575923CC63A16DB8 /* PreneticsTestCocoa-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8321C5342E2A4BDC6FD02ABE1F6A9376 /* PreneticsTestCocoa-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2304CA54F22458A817C2ED9764368F60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B65C7EE66A25A376CABEA4FC3738F87;
+			remoteInfo = PreneticsTestCocoa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003A42C7E45E5C7280E605CE6BCCB18E /* PreneticsTestCocoa-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PreneticsTestCocoa-prefix.pch"; sourceTree = "<group>"; };
+		037A638469D94C19ADEAE663D9B30940 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07F88E2B9B1FB7FF5451DEE1D2E86E6F /* Pods_PreneticsTestCocoa_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PreneticsTestCocoa_Example.framework; path = "Pods-PreneticsTestCocoa_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AF7635DEE9BB400B1BFF9194AAB662C /* Pods-PreneticsTestCocoa_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PreneticsTestCocoa_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0F4400E9053D5CD1AC24A5B0EA81E532 /* Pods-PreneticsTestCocoa_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PreneticsTestCocoa_Tests-resources.sh"; sourceTree = "<group>"; };
+		150D969656E1793C02EDC8D28577AD7D /* Pods-PreneticsTestCocoa_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PreneticsTestCocoa_Tests-dummy.m"; sourceTree = "<group>"; };
+		16D03A764CFA5454CF015C473F8463A7 /* Pods-PreneticsTestCocoa_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PreneticsTestCocoa_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1B6B6DF96EAA9F6B83FB48AAE5E90ACB /* Pods-PreneticsTestCocoa_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PreneticsTestCocoa_Example-resources.sh"; sourceTree = "<group>"; };
+		3FE1B7DB8B671FA2D235628A73485A0A /* Pods-PreneticsTestCocoa_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PreneticsTestCocoa_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		432D740D721B2B7B2C1F02CD244210D4 /* Pods-PreneticsTestCocoa_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PreneticsTestCocoa_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4755795702DAC0116EB8F0744C627830 /* Pods-PreneticsTestCocoa_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PreneticsTestCocoa_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4A951F440667E665DBF16512373BC780 /* Pods-PreneticsTestCocoa_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PreneticsTestCocoa_Example-dummy.m"; sourceTree = "<group>"; };
+		4C6A110A50B173B7467000C45EBC337D /* Pods_PreneticsTestCocoa_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PreneticsTestCocoa_Tests.framework; path = "Pods-PreneticsTestCocoa_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A22980356EBA7C518EB4BFFF729FBBC /* PreneticsTestCocoa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PreneticsTestCocoa-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		662122A369B31A035329F6C974118347 /* Pods-PreneticsTestCocoa_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PreneticsTestCocoa_Example-umbrella.h"; sourceTree = "<group>"; };
+		6E77802540837F30F7D66163690643BB /* Pods-PreneticsTestCocoa_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PreneticsTestCocoa_Example-frameworks.sh"; sourceTree = "<group>"; };
+		71B81B6320EDA83A526C6BA917383044 /* Pods-PreneticsTestCocoa_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PreneticsTestCocoa_Tests.modulemap"; sourceTree = "<group>"; };
+		7B3493B84820660F9FCDF8D81233EED2 /* Pods-PreneticsTestCocoa_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PreneticsTestCocoa_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8321C5342E2A4BDC6FD02ABE1F6A9376 /* PreneticsTestCocoa-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PreneticsTestCocoa-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		956BFA8643103F339A0E92BE65447BDC /* PreneticsTestCocoa.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PreneticsTestCocoa.swift; sourceTree = "<group>"; };
+		9F2E21746F664525C4AD0A9D1F400F64 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0843387BC1AC168F694C961CDC0AFEE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B079D5238F4D825BE48DDF7B7F5A9AED /* PreneticsTestCocoa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PreneticsTestCocoa.xcconfig; sourceTree = "<group>"; };
+		B71D5F1A512868C33ECA98A8080E13F9 /* Pods-PreneticsTestCocoa_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PreneticsTestCocoa_Example.modulemap"; sourceTree = "<group>"; };
+		B7E8E2B01C27A799153860DCCE4AA9C0 /* PreneticsTestCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PreneticsTestCocoa.framework; path = PreneticsTestCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3B13978CF9451315F7401DFBA66AA95 /* Pods-PreneticsTestCocoa_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PreneticsTestCocoa_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CA078FDCFC033681852F0B673E56578B /* Pods-PreneticsTestCocoa_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PreneticsTestCocoa_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DB57C90216A9D0FB51CB070B08185702 /* Pods-PreneticsTestCocoa_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PreneticsTestCocoa_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EEA54F72EDB81E6A9CDCCE8748890D87 /* PreneticsTestCocoa.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PreneticsTestCocoa.modulemap; sourceTree = "<group>"; };
+		F40B3880DBF53A6D2D9DFC6AABD35D01 /* Pods-PreneticsTestCocoa_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PreneticsTestCocoa_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		205D0E072B00841EB9C3DECA64DE551D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				993B57DF24AB98794C12BD94791367A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B9CE9BCC8BB9D1DFAC713F589E1B1BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7A8603ED778BFFEA0D112BDF86B77B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36814DC747845C42408E90B30060CBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				865AC525F90249D822033B5560CAE44E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C0648F297947D41CC4710FB191B97E7 /* Pods-PreneticsTestCocoa_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A0843387BC1AC168F694C961CDC0AFEE /* Info.plist */,
+				71B81B6320EDA83A526C6BA917383044 /* Pods-PreneticsTestCocoa_Tests.modulemap */,
+				CA078FDCFC033681852F0B673E56578B /* Pods-PreneticsTestCocoa_Tests-acknowledgements.markdown */,
+				DB57C90216A9D0FB51CB070B08185702 /* Pods-PreneticsTestCocoa_Tests-acknowledgements.plist */,
+				150D969656E1793C02EDC8D28577AD7D /* Pods-PreneticsTestCocoa_Tests-dummy.m */,
+				4755795702DAC0116EB8F0744C627830 /* Pods-PreneticsTestCocoa_Tests-frameworks.sh */,
+				0F4400E9053D5CD1AC24A5B0EA81E532 /* Pods-PreneticsTestCocoa_Tests-resources.sh */,
+				0AF7635DEE9BB400B1BFF9194AAB662C /* Pods-PreneticsTestCocoa_Tests-umbrella.h */,
+				3FE1B7DB8B671FA2D235628A73485A0A /* Pods-PreneticsTestCocoa_Tests.debug.xcconfig */,
+				16D03A764CFA5454CF015C473F8463A7 /* Pods-PreneticsTestCocoa_Tests.release.xcconfig */,
+			);
+			name = "Pods-PreneticsTestCocoa_Tests";
+			path = "Target Support Files/Pods-PreneticsTestCocoa_Tests";
+			sourceTree = "<group>";
+		};
+		21C53A863EF80B586B448B7D0A6B3D4B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				956BFA8643103F339A0E92BE65447BDC /* PreneticsTestCocoa.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4F170CFEC90CA0FF1BA61D5D97CC5FCA /* PreneticsTestCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				21C53A863EF80B586B448B7D0A6B3D4B /* Classes */,
+			);
+			name = PreneticsTestCocoa;
+			path = PreneticsTestCocoa;
+			sourceTree = "<group>";
+		};
+		6F836B929CDE43F8EE9A9187FB45C13D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				758576000B73090F0AB77DFDED2D8AED /* PreneticsTestCocoa */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		758576000B73090F0AB77DFDED2D8AED /* PreneticsTestCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				4F170CFEC90CA0FF1BA61D5D97CC5FCA /* PreneticsTestCocoa */,
+				A973C407DBA3A1DD8FA4C2BF899B53D3 /* Support Files */,
+			);
+			name = PreneticsTestCocoa;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				6F836B929CDE43F8EE9A9187FB45C13D /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D4D60F7C70DAAD31EA41EE2EA151EEBA /* Products */,
+				B2CB62AACDC3EEB9A781DE2621167898 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A973C407DBA3A1DD8FA4C2BF899B53D3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				037A638469D94C19ADEAE663D9B30940 /* Info.plist */,
+				EEA54F72EDB81E6A9CDCCE8748890D87 /* PreneticsTestCocoa.modulemap */,
+				B079D5238F4D825BE48DDF7B7F5A9AED /* PreneticsTestCocoa.xcconfig */,
+				5A22980356EBA7C518EB4BFFF729FBBC /* PreneticsTestCocoa-dummy.m */,
+				003A42C7E45E5C7280E605CE6BCCB18E /* PreneticsTestCocoa-prefix.pch */,
+				8321C5342E2A4BDC6FD02ABE1F6A9376 /* PreneticsTestCocoa-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PreneticsTestCocoa";
+			sourceTree = "<group>";
+		};
+		B2CB62AACDC3EEB9A781DE2621167898 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4394B0AE045D1FAACBEC213BAA58093 /* Pods-PreneticsTestCocoa_Example */,
+				0C0648F297947D41CC4710FB191B97E7 /* Pods-PreneticsTestCocoa_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D4D60F7C70DAAD31EA41EE2EA151EEBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07F88E2B9B1FB7FF5451DEE1D2E86E6F /* Pods_PreneticsTestCocoa_Example.framework */,
+				4C6A110A50B173B7467000C45EBC337D /* Pods_PreneticsTestCocoa_Tests.framework */,
+				B7E8E2B01C27A799153860DCCE4AA9C0 /* PreneticsTestCocoa.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4394B0AE045D1FAACBEC213BAA58093 /* Pods-PreneticsTestCocoa_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9F2E21746F664525C4AD0A9D1F400F64 /* Info.plist */,
+				B71D5F1A512868C33ECA98A8080E13F9 /* Pods-PreneticsTestCocoa_Example.modulemap */,
+				7B3493B84820660F9FCDF8D81233EED2 /* Pods-PreneticsTestCocoa_Example-acknowledgements.markdown */,
+				F40B3880DBF53A6D2D9DFC6AABD35D01 /* Pods-PreneticsTestCocoa_Example-acknowledgements.plist */,
+				4A951F440667E665DBF16512373BC780 /* Pods-PreneticsTestCocoa_Example-dummy.m */,
+				6E77802540837F30F7D66163690643BB /* Pods-PreneticsTestCocoa_Example-frameworks.sh */,
+				1B6B6DF96EAA9F6B83FB48AAE5E90ACB /* Pods-PreneticsTestCocoa_Example-resources.sh */,
+				662122A369B31A035329F6C974118347 /* Pods-PreneticsTestCocoa_Example-umbrella.h */,
+				C3B13978CF9451315F7401DFBA66AA95 /* Pods-PreneticsTestCocoa_Example.debug.xcconfig */,
+				432D740D721B2B7B2C1F02CD244210D4 /* Pods-PreneticsTestCocoa_Example.release.xcconfig */,
+			);
+			name = "Pods-PreneticsTestCocoa_Example";
+			path = "Target Support Files/Pods-PreneticsTestCocoa_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4670FF1F7B2EED44B8BC725EE1A08083 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B86D03A370CA35499DA09B6D93139D9A /* Pods-PreneticsTestCocoa_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40E80ED4E1B180B9B02DDB1C2BE3CE7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F077A22A5AA756575923CC63A16DB8 /* PreneticsTestCocoa-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2024D1ECB9DD54D595FAEC2CBFD21C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292C0468813D383B1FC092B08F581466 /* Pods-PreneticsTestCocoa_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3B65C7EE66A25A376CABEA4FC3738F87 /* PreneticsTestCocoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 508468E9336F57B15AD36973D3DE6CF3 /* Build configuration list for PBXNativeTarget "PreneticsTestCocoa" */;
+			buildPhases = (
+				EF5378F930B42A777E31B6DE016C707D /* Sources */,
+				205D0E072B00841EB9C3DECA64DE551D /* Frameworks */,
+				D40E80ED4E1B180B9B02DDB1C2BE3CE7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PreneticsTestCocoa;
+			productName = PreneticsTestCocoa;
+			productReference = B7E8E2B01C27A799153860DCCE4AA9C0 /* PreneticsTestCocoa.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6AEDAA655301340F96827CF6B9EE4F47 /* Pods-PreneticsTestCocoa_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E388674B84DE00D9583D991087C988C2 /* Build configuration list for PBXNativeTarget "Pods-PreneticsTestCocoa_Example" */;
+			buildPhases = (
+				D8AF5C4D0F3DE795C3ADBBD50753CE63 /* Sources */,
+				D36814DC747845C42408E90B30060CBD /* Frameworks */,
+				4670FF1F7B2EED44B8BC725EE1A08083 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				452C2C6CC5B2A0D4FA6710528507B90E /* PBXTargetDependency */,
+			);
+			name = "Pods-PreneticsTestCocoa_Example";
+			productName = "Pods-PreneticsTestCocoa_Example";
+			productReference = 07F88E2B9B1FB7FF5451DEE1D2E86E6F /* Pods_PreneticsTestCocoa_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F668180150D0AE4404251A4EC490FF0A /* Pods-PreneticsTestCocoa_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDCE5AD13A45E8CE4CEFE932E7CE6BFB /* Build configuration list for PBXNativeTarget "Pods-PreneticsTestCocoa_Tests" */;
+			buildPhases = (
+				7C73F595876FEB7A0C6F0D871771C6E7 /* Sources */,
+				8B9CE9BCC8BB9D1DFAC713F589E1B1BF /* Frameworks */,
+				E2024D1ECB9DD54D595FAEC2CBFD21C8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PreneticsTestCocoa_Tests";
+			productName = "Pods-PreneticsTestCocoa_Tests";
+			productReference = 4C6A110A50B173B7467000C45EBC337D /* Pods_PreneticsTestCocoa_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D4D60F7C70DAAD31EA41EE2EA151EEBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AEDAA655301340F96827CF6B9EE4F47 /* Pods-PreneticsTestCocoa_Example */,
+				F668180150D0AE4404251A4EC490FF0A /* Pods-PreneticsTestCocoa_Tests */,
+				3B65C7EE66A25A376CABEA4FC3738F87 /* PreneticsTestCocoa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C73F595876FEB7A0C6F0D871771C6E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A20AAE869A61B4965E1883FEDF19F12 /* Pods-PreneticsTestCocoa_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8AF5C4D0F3DE795C3ADBBD50753CE63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C1E99E9DA0C768F8CFAB58DF4762191 /* Pods-PreneticsTestCocoa_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5378F930B42A777E31B6DE016C707D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C8A08326A077DCCECD193A2DA39CC7 /* PreneticsTestCocoa-dummy.m in Sources */,
+				ABFD58D5B4664B8165DED2736601BA34 /* PreneticsTestCocoa.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		452C2C6CC5B2A0D4FA6710528507B90E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PreneticsTestCocoa;
+			target = 3B65C7EE66A25A376CABEA4FC3738F87 /* PreneticsTestCocoa */;
+			targetProxy = 2304CA54F22458A817C2ED9764368F60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3C1224394B992FF78B5132A4EFFE4CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FE1B7DB8B671FA2D235628A73485A0A /* Pods-PreneticsTestCocoa_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PreneticsTestCocoa_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PreneticsTestCocoa_Tests/Pods-PreneticsTestCocoa_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PreneticsTestCocoa_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3D1AFE698672A5923002000C8343310A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3B13978CF9451315F7401DFBA66AA95 /* Pods-PreneticsTestCocoa_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PreneticsTestCocoa_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PreneticsTestCocoa_Example/Pods-PreneticsTestCocoa_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PreneticsTestCocoa_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8344C8DFC1E3A7E940C53CF1EADA4228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16D03A764CFA5454CF015C473F8463A7 /* Pods-PreneticsTestCocoa_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PreneticsTestCocoa_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PreneticsTestCocoa_Tests/Pods-PreneticsTestCocoa_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PreneticsTestCocoa_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		906A7E5F5C578E42A4C5A9EEE28D593B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B079D5238F4D825BE48DDF7B7F5A9AED /* PreneticsTestCocoa.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PreneticsTestCocoa/PreneticsTestCocoa-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PreneticsTestCocoa/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PreneticsTestCocoa/PreneticsTestCocoa.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PreneticsTestCocoa;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A95A4AF1911A0BBF15FFE6CAE52C7DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 432D740D721B2B7B2C1F02CD244210D4 /* Pods-PreneticsTestCocoa_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PreneticsTestCocoa_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PreneticsTestCocoa_Example/Pods-PreneticsTestCocoa_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PreneticsTestCocoa_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4FB688489E498AB5711187597C4BDAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B079D5238F4D825BE48DDF7B7F5A9AED /* PreneticsTestCocoa.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PreneticsTestCocoa/PreneticsTestCocoa-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PreneticsTestCocoa/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PreneticsTestCocoa/PreneticsTestCocoa.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PreneticsTestCocoa;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		508468E9336F57B15AD36973D3DE6CF3 /* Build configuration list for PBXNativeTarget "PreneticsTestCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FB688489E498AB5711187597C4BDAC /* Debug */,
+				906A7E5F5C578E42A4C5A9EEE28D593B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDCE5AD13A45E8CE4CEFE932E7CE6BFB /* Build configuration list for PBXNativeTarget "Pods-PreneticsTestCocoa_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C1224394B992FF78B5132A4EFFE4CAF /* Debug */,
+				8344C8DFC1E3A7E940C53CF1EADA4228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E388674B84DE00D9583D991087C988C2 /* Build configuration list for PBXNativeTarget "Pods-PreneticsTestCocoa_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D1AFE698672A5923002000C8343310A /* Debug */,
+				A95A4AF1911A0BBF15FFE6CAE52C7DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

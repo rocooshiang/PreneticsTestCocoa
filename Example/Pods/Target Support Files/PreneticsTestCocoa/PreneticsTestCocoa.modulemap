@@ -1,0 +1,6 @@
+framework module PreneticsTestCocoa {
+  umbrella header "PreneticsTestCocoa-umbrella.h"
+
+  export *
+  module * { export * }
+}

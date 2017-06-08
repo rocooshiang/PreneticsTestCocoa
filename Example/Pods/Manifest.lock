@@ -1,0 +1,16 @@
+PODS:
+  - PreneticsTestCocoa (0.1.0)
+
+DEPENDENCIES:
+  - PreneticsTestCocoa (from `../`)
+
+EXTERNAL SOURCES:
+  PreneticsTestCocoa:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PreneticsTestCocoa: 064ad098dcaab839644fa7ed226199f99803eaca
+
+PODFILE CHECKSUM: 56152afa9b17e7f5e34105a4cf35f4b256f0410a
+
+COCOAPODS: 1.2.1

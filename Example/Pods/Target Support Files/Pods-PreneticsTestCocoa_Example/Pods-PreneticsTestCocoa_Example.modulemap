@@ -1,0 +1,6 @@
+framework module Pods_PreneticsTestCocoa_Example {
+  umbrella header "Pods-PreneticsTestCocoa_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
