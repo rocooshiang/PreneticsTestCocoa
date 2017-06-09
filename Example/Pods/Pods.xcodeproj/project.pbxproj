@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02C8A08326A077DCCECD193A2DA39CC7 /* PreneticsTestCocoa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A22980356EBA7C518EB4BFFF729FBBC /* PreneticsTestCocoa-dummy.m */; };
 		292C0468813D383B1FC092B08F581466 /* Pods-PreneticsTestCocoa_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AF7635DEE9BB400B1BFF9194AAB662C /* Pods-PreneticsTestCocoa_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50868539AA0ACC204DF17748036E8292 /* PreneticsTestCocoa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A22980356EBA7C518EB4BFFF729FBBC /* PreneticsTestCocoa-dummy.m */; };
 		5A20AAE869A61B4965E1883FEDF19F12 /* Pods-PreneticsTestCocoa_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 150D969656E1793C02EDC8D28577AD7D /* Pods-PreneticsTestCocoa_Tests-dummy.m */; };
 		5C1E99E9DA0C768F8CFAB58DF4762191 /* Pods-PreneticsTestCocoa_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A951F440667E665DBF16512373BC780 /* Pods-PreneticsTestCocoa_Example-dummy.m */; };
 		865AC525F90249D822033B5560CAE44E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		993B57DF24AB98794C12BD94791367A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		ABFD58D5B4664B8165DED2736601BA34 /* PreneticsTestCocoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956BFA8643103F339A0E92BE65447BDC /* PreneticsTestCocoa.swift */; };
 		AF7A8603ED778BFFEA0D112BDF86B77B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		B86D03A370CA35499DA09B6D93139D9A /* Pods-PreneticsTestCocoa_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 662122A369B31A035329F6C974118347 /* Pods-PreneticsTestCocoa_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9F077A22A5AA756575923CC63A16DB8 /* PreneticsTestCocoa-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8321C5342E2A4BDC6FD02ABE1F6A9376 /* PreneticsTestCocoa-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5A28AEE2903148A866D300DFED9379F /* PreneticsTestCocoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956BFA8643103F339A0E92BE65447BDC /* PreneticsTestCocoa.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,9 +41,11 @@
 		3FE1B7DB8B671FA2D235628A73485A0A /* Pods-PreneticsTestCocoa_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PreneticsTestCocoa_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		432D740D721B2B7B2C1F02CD244210D4 /* Pods-PreneticsTestCocoa_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PreneticsTestCocoa_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4755795702DAC0116EB8F0744C627830 /* Pods-PreneticsTestCocoa_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PreneticsTestCocoa_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		49891FA889F03D9BF65F2175309DFC1D /* ICMUserAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICMUserAttributes.h; path = Intercom/Intercom.framework/Versions/A/Headers/ICMUserAttributes.h; sourceTree = "<group>"; };
 		4A951F440667E665DBF16512373BC780 /* Pods-PreneticsTestCocoa_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PreneticsTestCocoa_Example-dummy.m"; sourceTree = "<group>"; };
 		4C6A110A50B173B7467000C45EBC337D /* Pods_PreneticsTestCocoa_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PreneticsTestCocoa_Tests.framework; path = "Pods-PreneticsTestCocoa_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A22980356EBA7C518EB4BFFF729FBBC /* PreneticsTestCocoa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PreneticsTestCocoa-dummy.m"; sourceTree = "<group>"; };
+		5F99828F7B1A3886A0A5FE89500A2241 /* Intercom.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Intercom.bundle; path = Intercom/Intercom.framework/Versions/A/Resources/Intercom.bundle; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		662122A369B31A035329F6C974118347 /* Pods-PreneticsTestCocoa_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PreneticsTestCocoa_Example-umbrella.h"; sourceTree = "<group>"; };
 		6E77802540837F30F7D66163690643BB /* Pods-PreneticsTestCocoa_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PreneticsTestCocoa_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -54,7 +56,10 @@
 		956BFA8643103F339A0E92BE65447BDC /* PreneticsTestCocoa.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PreneticsTestCocoa.swift; sourceTree = "<group>"; };
 		9F2E21746F664525C4AD0A9D1F400F64 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0843387BC1AC168F694C961CDC0AFEE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3273CC4665D9B79E79982C7256B8DF8 /* Intercom.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intercom.framework; path = Intercom/Intercom.framework; sourceTree = "<group>"; };
+		B05B8FC1A416CA6DE37358E3C0C68FF8 /* Intercom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Intercom.h; path = Intercom/Intercom.framework/Versions/A/Headers/Intercom.h; sourceTree = "<group>"; };
 		B079D5238F4D825BE48DDF7B7F5A9AED /* PreneticsTestCocoa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PreneticsTestCocoa.xcconfig; sourceTree = "<group>"; };
+		B46D391E4230C36A805E15DDEAE713F3 /* IntercomTranslations.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = IntercomTranslations.bundle; path = Intercom/Intercom.framework/Versions/A/Resources/IntercomTranslations.bundle; sourceTree = "<group>"; };
 		B71D5F1A512868C33ECA98A8080E13F9 /* Pods-PreneticsTestCocoa_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PreneticsTestCocoa_Example.modulemap"; sourceTree = "<group>"; };
 		B7E8E2B01C27A799153860DCCE4AA9C0 /* PreneticsTestCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PreneticsTestCocoa.framework; path = PreneticsTestCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3B13978CF9451315F7401DFBA66AA95 /* Pods-PreneticsTestCocoa_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PreneticsTestCocoa_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -62,6 +67,7 @@
 		DB57C90216A9D0FB51CB070B08185702 /* Pods-PreneticsTestCocoa_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PreneticsTestCocoa_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		EEA54F72EDB81E6A9CDCCE8748890D87 /* PreneticsTestCocoa.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PreneticsTestCocoa.modulemap; sourceTree = "<group>"; };
 		F40B3880DBF53A6D2D9DFC6AABD35D01 /* Pods-PreneticsTestCocoa_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PreneticsTestCocoa_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FDE4156E0BD03BEB9294B2C981AF8869 /* ICMCompany.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICMCompany.h; path = Intercom/Intercom.framework/Versions/A/Headers/ICMCompany.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,23 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		21CEE529236642D1C0A970C196AE2098 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88019C625CADABCAA7A556EF9DE6FE61 /* Intercom */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		44BFEB70601EA01D89668A870A5B4EE2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5F99828F7B1A3886A0A5FE89500A2241 /* Intercom.bundle */,
+				B46D391E4230C36A805E15DDEAE713F3 /* IntercomTranslations.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		4F170CFEC90CA0FF1BA61D5D97CC5FCA /* PreneticsTestCocoa */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,9 +175,31 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				6F836B929CDE43F8EE9A9187FB45C13D /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				21CEE529236642D1C0A970C196AE2098 /* Pods */,
 				D4D60F7C70DAAD31EA41EE2EA151EEBA /* Products */,
 				B2CB62AACDC3EEB9A781DE2621167898 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		88019C625CADABCAA7A556EF9DE6FE61 /* Intercom */ = {
+			isa = PBXGroup;
+			children = (
+				FDE4156E0BD03BEB9294B2C981AF8869 /* ICMCompany.h */,
+				49891FA889F03D9BF65F2175309DFC1D /* ICMUserAttributes.h */,
+				B05B8FC1A416CA6DE37358E3C0C68FF8 /* Intercom.h */,
+				95D4015AFA857605E1499DB42A7DA2BE /* Frameworks */,
+				44BFEB70601EA01D89668A870A5B4EE2 /* Resources */,
+			);
+			name = Intercom;
+			path = Intercom;
+			sourceTree = "<group>";
+		};
+		95D4015AFA857605E1499DB42A7DA2BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3273CC4665D9B79E79982C7256B8DF8 /* Intercom.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		A973C407DBA3A1DD8FA4C2BF899B53D3 /* Support Files */ = {
@@ -258,7 +303,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 508468E9336F57B15AD36973D3DE6CF3 /* Build configuration list for PBXNativeTarget "PreneticsTestCocoa" */;
 			buildPhases = (
-				EF5378F930B42A777E31B6DE016C707D /* Sources */,
+				C5BEF5698E01B8AC3B36C75EF41309FB /* Sources */,
 				205D0E072B00841EB9C3DECA64DE551D /* Frameworks */,
 				D40E80ED4E1B180B9B02DDB1C2BE3CE7 /* Headers */,
 			);
@@ -343,20 +388,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C5BEF5698E01B8AC3B36C75EF41309FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50868539AA0ACC204DF17748036E8292 /* PreneticsTestCocoa-dummy.m in Sources */,
+				F5A28AEE2903148A866D300DFED9379F /* PreneticsTestCocoa.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D8AF5C4D0F3DE795C3ADBBD50753CE63 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5C1E99E9DA0C768F8CFAB58DF4762191 /* Pods-PreneticsTestCocoa_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EF5378F930B42A777E31B6DE016C707D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				02C8A08326A077DCCECD193A2DA39CC7 /* PreneticsTestCocoa-dummy.m in Sources */,
-				ABFD58D5B4664B8165DED2736601BA34 /* PreneticsTestCocoa.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

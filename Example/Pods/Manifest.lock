@@ -1,7 +1,9 @@
 PODS:
+  - Intercom (3.2.5)
   - PreneticsTestCocoa (0.1.0)
 
 DEPENDENCIES:
+  - Intercom (~> 3.2.5)
   - PreneticsTestCocoa (from `../`)
 
 EXTERNAL SOURCES:
@@ -9,8 +11,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  Intercom: '09f72b37baccfc71733a63b896c9438d5ac0ec3d'
   PreneticsTestCocoa: 064ad098dcaab839644fa7ed226199f99803eaca
 
-PODFILE CHECKSUM: 56152afa9b17e7f5e34105a4cf35f4b256f0410a
+PODFILE CHECKSUM: 6ee1c79bae4c5b772477c22450f4d95a22a7ecfd
 
 COCOAPODS: 1.2.1

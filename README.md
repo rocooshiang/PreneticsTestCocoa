@@ -22,7 +22,7 @@ pod "PreneticsTestCocoa"
 
 ## Author
 
-rocooshiang, rocoo.shiang@gmail.com
+Rocoo
 
 ## License
 
